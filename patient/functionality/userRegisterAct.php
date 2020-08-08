@@ -17,7 +17,9 @@ if (isset($_POST["submit"])) {
     $username = $email;
     $password = $phone;
     $medication = $_POST["medicine"];
+    $medication = serialize($medication);
     $allergy = $_POST["allergy"];
+    $allergy = serialize($allergy);
     $blood = $_POST["bloodGroup"];
     $marital = $_POST["marital"];
     $temp_check = getThis("SELECT `id` FROM `patients` WHERE `emailAddress` = '$email' AND `enabled` = '1' ");
@@ -25,7 +27,7 @@ if (isset($_POST["submit"])) {
 ?>
         <script>
             alert("Email Address Already Exists!!");
-            window.location = "../index.php";
+            window.location = "../userRegister.php";
         </script>
         <?php
     } else {

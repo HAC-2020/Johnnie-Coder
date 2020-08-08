@@ -1,6 +1,13 @@
 <?php include "header.php" ?>
 <?php
 $temp = getThis("SELECT `id`,`prescriptionID`, `doctorID`, `symptoms`, `description`, `enabled` FROM `queries` WHERE `patientID`='$id' ORDER BY `generatedAt` DESC ");
+if (sizeof($temp) == 0) {
+?>
+  <script>
+    window.location = "searchDoctor.php";
+  </script>
+<?php
+}
 $temp = $temp[0];
 ?>
 <!-- table goes here  -->

@@ -21,14 +21,16 @@ $allergies = unserialize($allergies);
                 </tr>
 
                 <?php
-                for ($x = 0; $x < sizeof($allergies); $x++) {
+                if (isset($allergies)) {
+                    for ($x = 0; $x < sizeof($allergies); $x++) {
                 ?>
-                    <tr id="row<?php echo $x + 1; ?>">
-                        <td><input type=" text" name="allergicReactions[]" placeholder="Enter Allergic Reactions" value="<?php echo $allergies[$x] ?>" class="form-control">
-                        </td>
-                        <td><button type="button" name="remove" id="<?php echo $x + 1; ?>" class="btn btn-danger btn_remove">X</button></td>
-                    </tr>
+                        <tr id="row<?php echo $x + 1; ?>">
+                            <td><input type=" text" name="allergicReactions[]" placeholder="Enter Allergic Reactions" value="<?php echo $allergies[$x] ?>" class="form-control">
+                            </td>
+                            <td><button type="button" name="remove" id="<?php echo $x + 1; ?>" class="btn btn-danger btn_remove">X</button></td>
+                        </tr>
                 <?php
+                    }
                 }
                 ?>
 
