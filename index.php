@@ -53,7 +53,7 @@
             <div class="col-xl-2 col-lg-2 col-md-1">
               <div class="logo">
                 <a href="index.html">
-                  <img src="assets/img/logo/logo.png" alt="" width="200" height="50">
+                  <img src="assets/img/logo/logo.png" alt="" height="75">
                 </a>
               </div>
             </div>
@@ -110,7 +110,7 @@
                 <label class=""></label>
                 <a href="#">
 
-                  <img class="d-block mx-auto mb-4" src="assets/img/logo/logo.png" alt="" width="300" height="75">
+                  <img class="d-block mx-auto mb-4" src="assets/img/logo/logo.png" alt="" height="75">
                 </a>
 
 
@@ -206,7 +206,7 @@
                 <label class=""></label>
                 <a href="#">
 
-                  <img class="d-block mx-auto mb-4" src="assets/img/logo/logo.png" alt="" width="300" height="75">
+                  <img class="d-block mx-auto mb-4" src="assets/img/logo/logo.png" alt="" height="75">
                 </a>
 
 
@@ -297,7 +297,7 @@
                 <label class=""></label>
                 <a href="#">
 
-                  <img class="d-block mx-auto mb-4" src="assets/img/logo/logo.png" alt="" width="300" height="75">
+                  <img class="d-block mx-auto mb-4" src="assets/img/logo/logo.png" alt="" height="75">
                 </a>
 
 
@@ -495,7 +495,7 @@
               <div class="single-footer-caption mb-50">
                 <!-- logo -->
                 <div class="footer-logo">
-                  <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" height="75" width="200"></a>
+                  <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt="" height="120"></a>
                 </div>
 
               </div>
