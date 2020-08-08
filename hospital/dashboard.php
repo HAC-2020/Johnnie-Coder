@@ -3,13 +3,23 @@
 <section class="content">
   <div class="container-fluid">
     <div class="row">
-      <h3>This is the area to work upon!! Pickup components from the main file and drop it here!</h3>
-
-
-
+      <div class="card-body">
+        <table id="example2" class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name Of Doctor</th>
+              <th>Department</th>
+              <th>Qualification</th>
+              <th>Date Of Joining</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
     </div>
     <div class="row">
-      <h3>This kinda looks nice!!</h3>
     </div>
     <!-- /.row (main row) -->
   </div>

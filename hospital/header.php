@@ -134,7 +134,7 @@ $name = $_SESSION["hospitalName"];
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="allDoctors.php" class="nav-link">
+                            <a href="dashboard.php" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     All Doctors
