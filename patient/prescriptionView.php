@@ -106,16 +106,17 @@ $temp = $temp[0];
                             <th>Dosage</th>
                         </thead>
                         <tbody>
-                            <tr>
-                                <?php
-                                $med = $presDetails["medicine"];
-                                $med = unserialize($med);
-                                $inst = $presDetails["instruction"];
-                                $inst = unserialize($inst);
-                                $dose = $presDetails["dosage"];
-                                $dose = unserialize($dose);
-                                for ($x = 0; $x < sizeof($med); $x++) {
-                                ?>
+
+                            <?php
+                            $med = $presDetails["medicine"];
+                            $med = unserialize($med);
+                            $inst = $presDetails["instruction"];
+                            $inst = unserialize($inst);
+                            $dose = $presDetails["dosage"];
+                            $dose = unserialize($dose);
+                            for ($x = 0; $x < sizeof($med); $x++) {
+                            ?>
+                                <tr>
                                     <td>
                                         <?php echo $med[$x]; ?>
                                     </td>
@@ -125,10 +126,11 @@ $temp = $temp[0];
                                     <td>
                                         <?php echo $dose[$x]; ?>
                                     </td>
-                                <?php
-                                }
-                                ?>
-                            </tr>
+                                </tr>
+                            <?php
+                            }
+                            ?>
+
                         </tbody>
                     </table>
                 </div>
