@@ -15,3 +15,7 @@
  2. Taranjot Singh<br>
  3. Ansh Garg<br>
  4. Tarun Kumar Dixit<br>
+
+<h3>We were unable to submit this project due to some problems, though it is complete and working as of on 10/08/2020. Further development of this project, if done, will not be available on this repo. Until then, all improvements, suggestions and complaints are welcome and any team member can be address with same. </h3>
+<h4>At the end, Thank to HAC-2020 team for this oppurtunity</h4>
+<h4>Signing off - <a href="https://github.com/tarun-sharma03">Tarun Kumar Dixit</a></h4>
